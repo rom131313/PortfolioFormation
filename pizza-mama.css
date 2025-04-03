@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #f1f1f1;
+    font-family: 'Poppins', sans-serif;
+}
+
+h2.titre-projet {
+    text-align: center;
+    font-size: 50px;
+    margin: 50px 0;
+    font-family: 'Abril Fatface', cursive;
+}
+
+.bloc {
+    width: 70%;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+}
+
+.bloc h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.bloc hr {
+    width: 50px;
+    height: 2px;
+    background: #aaa;
+    border: none;
+    margin: 10px 0 20px 0;
+}
+
+.bloc p, .bloc ul, .bloc table {
+    font-size: 16px;
+}
+
+.bloc-2 {
+    background: #d0d0d0;
+}
+
+.bloc-3 {
+    background: #333;
+    color: #f1f1f1;
+}
+
+.bloc-3 table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.bloc-3 th, .bloc-3 td {
+    border: 1px solid #f1f1f1;
+    padding: 10px;
+    text-align: center;
+}
+
+.bloc-4 {
+    background: #485563;
+    color: #f1f1f1;
+}
+
+.liens-projet {
+    margin-top: 20px;
+}
+
+.liens-projet a {
+    margin-right: 15px;
+    padding: 8px 20px;
+    border: 1px solid #f1f1f1;
+    color: #f1f1f1;
+    text-decoration: none;
+    border-radius: 3px;
+    transition: 0.3s;
+}
+
+.liens-projet a:hover {
+    background: #f1f1f1;
+    color: #333;
+}

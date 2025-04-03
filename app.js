@@ -33,7 +33,7 @@ let typewriter = new Typewriter(txtAnim,  {
 typewriter 
 .pauseFor(1800)
 .changeDelay(20)
-.typeString('Moi c\'est Enzo Ustariz')
+.typeString('Moi c\'est Halison Andrianaivoarivelo')
 .pauseFor(300)
 .typeString('<strong>, Développeur Full-Stack</strong> !')
 .pauseFor(1000)

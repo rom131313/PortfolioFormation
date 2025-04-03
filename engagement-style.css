@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #f1f1f1;
+    font-family: 'Poppins', sans-serif;
+}
+
+.titre-projet {
+    text-align: center;
+    font-size: 50px;
+    margin: 50px 0;
+    font-family: 'Abril Fatface', cursive;
+}
+
+.bloc {
+    width: 70%;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+}
+
+.bloc h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.bloc hr {
+    width: 50px;
+    height: 2px;
+    background: #aaa;
+    border: none;
+    margin: 10px 0 20px 0;
+}
+
+.bloc p, .bloc ul {
+    font-size: 16px;
+}
+
+.bloc-1 {
+    background: #d0d0d0;
+}
+
+.bloc-2 {
+    background: #bfe2ca;
+}
+
+.bloc-3 {
+    background: #333;
+    color: #f1f1f1;
+}
+
+.bloc-4 {
+    background: #485563;
+    color: #f1f1f1;
+}
+
+.bloc-4 ul {
+    list-style: square;
+}
+
+.bloc ul li {
+    margin-bottom: 8px;
+}

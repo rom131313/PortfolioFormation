@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #f1f1f1;
+    font-family: 'Poppins', sans-serif;
+}
+
+.titre-projet {
+    text-align: center;
+    font-size: 50px;
+    margin: 50px 0;
+    font-family: 'Abril Fatface', cursive;
+}
+
+.bloc {
+    width: 70%;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+}
+
+.bloc h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.bloc hr {
+    width: 50px;
+    height: 2px;
+    background: #aaa;
+    border: none;
+    margin: 10px 0 20px 0;
+}
+
+.bloc p, .bloc ul {
+    font-size: 16px;
+}
+
+/* Bloc 1 : Contexte */
+.bloc-1 {
+    background: #d0d0d0;
+}
+
+/* Bloc 2 : Objectifs */
+.bloc-2 {
+    background: #bfe2ca;
+}
+
+/* Bloc 3 : Technologies */
+.bloc-3 {
+    background: #333;
+    color: #f1f1f1;
+}
+
+/* Bloc 4 : Travaux */
+.bloc-4 {
+    background: #a6daef;
+}
+
+/* Bloc 5 : Compétences */
+.bloc-5 {
+    background: #485563;
+    color: #f1f1f1;
+}
+
+/* Bloc 6 : Livrables */
+.bloc-6 {
+    background: #fb97a0;
+    color: #333;
+}
+
+.bloc-6 a {
+    text-decoration: none;
+    color: inherit;
+    border: 1px solid #333;
+    padding: 8px 20px;
+    display: inline-block;
+    border-radius: 3px;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+
+.bloc-6 a:hover {
+    background: #333;
+    color: #fff;
+}
